@@ -25,7 +25,7 @@ graph TD;
     D --> E[DBeaver para gerenciamento];
     E --> F[Análise e Visualização (VSCode / Jupyter)];
     G[Pipeline automatizado] --> H[Render - Deploy e Execução];
-Extração: Leitura dos dados diretamente do arquivo Excel.
+
 
 Transformação: Limpeza e preparação dos dados em Python.
 
