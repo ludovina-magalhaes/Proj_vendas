@@ -17,7 +17,6 @@ Repositório do projeto de análise de vendas online de artigos artesanais, com 
 
 ## Arquitetura ETL
 
-```mermaid
 graph TD;
     A[Arquivo Excel (.xls)] --> B[Extração];
     B --> C[Transformação];
