@@ -47,12 +47,8 @@ Tecnologias Utilizadas:
 git clone https://github.com/ludovina-magalhaes/Proj_vendas.git
 Configure o arquivo .env com as variáveis necessárias para conexão ao banco e outras credenciais, exemplo:
 
+![image](https://github.com/user-attachments/assets/9e7c8ee4-dc47-4063-91fc-493bd084215a)
 
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=nome_do_banco
-DB_USER=usuario
-DB_PASSWORD=senha
 
 Crie o ambiente virtual e instale as dependências:
 python -m venv env
@@ -70,15 +66,8 @@ Carga no PostgreSQL
 Análise exploratória e visualização
 
 Estrutura do Repositório
-
-Proj_vendas/
-│
-├── data/                 # Arquivos Excel e dados processados
-├── notebooks/            # Notebooks Jupyter para análise
-├── scripts/              # Scripts Python para pipeline ETL
-├── .env                  # Variáveis de ambiente (não versionar)
-├── requirements.txt      # Dependências do projeto
-└── README.md             # Documentação
+![image](https://github.com/user-attachments/assets/414f7991-6d02-4638-8b2f-7ca31f5e0fd9)
+o
 Deploy e Automação
 O pipeline está configurado para ser executado automaticamente na plataforma Render.
 
