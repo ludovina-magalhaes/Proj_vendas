@@ -25,51 +25,36 @@ Repositório do projeto de análise de vendas online de artigos artesanais, com 
     G[Pipeline automatizado] --> H[Render - Deploy e Execução];
 
 
-Transformação: Limpeza e preparação dos dados em Python.
+Extração: Leitura dos dados diretamente do arquivo Excel.
 
-Carga: Dados inseridos em tabelas no banco PostgreSQL.
+Transformação: Limpeza, normalização e preparação dos dados usando Python.
 
-Gerenciamento: DBeaver utilizado para consultas e manutenção do banco.
+Carga: Inserção dos dados transformados em tabelas do banco PostgreSQL.
 
-Análise: Desenvolvida em VSCode com Jupyter notebooks.
+Gerenciamento: Acesso e manutenção do banco via DBeaver.
 
-Deploy: Pipeline executado e agendado via Render, utilizando variáveis do arquivo .env.
+Análise: Desenvolvimento das análises em VSCode com Jupyter notebooks.
 
-Tecnologias Utilizadas
-Python (pandas, sqlalchemy, psycopg2)
+Deploy: Pipeline automatizado na Render, utilizando variáveis definidas no .env.
 
-PostgreSQL (banco de dados relacional)
+Tecnologias Utilizadas:
+- Python (pandas, SQLAlchemy, psycopg2)
+- PostgreSQL (banco de dados relacional)
+- DBeaver (ferramenta GUI para PostgreSQL)
+- VSCode (IDE para desenvolvimento)
+- Render (plataforma de deploy e execução automatizada)
 
-DBeaver (ferramenta GUI para PostgreSQL)
-
-VSCode (IDE para desenvolvimento)
-
-Render (plataforma de deploy e execução automatizada)
-
-Arquivo .env para configuração segura de variáveis de ambiente
-
-Configuração do Ambiente
-Clone o repositório:
-
-bash
-Copiar
-Editar
 git clone https://github.com/ludovina-magalhaes/Proj_vendas.git
 Configure o arquivo .env com as variáveis necessárias para conexão ao banco e outras credenciais, exemplo:
 
-ini
-Copiar
-Editar
+
 DB_HOST=localhost
 DB_PORT=5432
 DB_NAME=nome_do_banco
 DB_USER=usuario
 DB_PASSWORD=senha
-Crie o ambiente virtual e instale as dependências:
 
-bash
-Copiar
-Editar
+Crie o ambiente virtual e instale as dependências:
 python -m venv env
 source env/bin/activate  # Linux/macOS
 env\Scripts\activate     # Windows
@@ -85,9 +70,7 @@ Carga no PostgreSQL
 Análise exploratória e visualização
 
 Estrutura do Repositório
-bash
-Copiar
-Editar
+
 Proj_vendas/
 │
 ├── data/                 # Arquivos Excel e dados processados
@@ -118,5 +101,4 @@ Render documentation
 
 Autor
 Ludovina Magalhães
-GitHub
-Portfolio
+
