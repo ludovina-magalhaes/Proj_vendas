@@ -66,6 +66,7 @@ Carga no PostgreSQL
 Análise exploratória e visualização
 
 Estrutura do Repositório
+
 ![image](https://github.com/user-attachments/assets/414f7991-6d02-4638-8b2f-7ca31f5e0fd9)
 
 Deploy e Automação
