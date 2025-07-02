@@ -67,7 +67,7 @@ Análise exploratória e visualização
 
 Estrutura do Repositório
 ![image](https://github.com/user-attachments/assets/414f7991-6d02-4638-8b2f-7ca31f5e0fd9)
-o
+
 Deploy e Automação
 O pipeline está configurado para ser executado automaticamente na plataforma Render.
 
@@ -75,18 +75,15 @@ Variáveis de ambiente sensíveis são gerenciadas via .env.
 
 O banco de dados PostgreSQL pode ser acessado e gerenciado via DBeaver para consultas, validação e manutenção.
 
-Referências
-pandas documentation
+## Referências
 
-SQLAlchemy documentation
+- [pandas documentation](https://pandas.pydata.org/pandas-docs/stable/)
+- [SQLAlchemy documentation](https://docs.sqlalchemy.org/)
+- [psycopg2 documentation](https://www.psycopg.org/docs/)
+- [PostgreSQL documentation](https://www.postgresql.org/docs/)
+- [DBeaver website](https://dbeaver.io/)
+- [Render documentation](https://render.com/docs)
 
-psycopg2 documentation
-
-PostgreSQL documentation
-
-DBeaver website
-
-Render documentation
 
 Autor
 Ludovina Magalhães
