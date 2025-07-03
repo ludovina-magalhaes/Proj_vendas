@@ -3,16 +3,6 @@
     "sqltools.connections": [
         {
             "previewLimit": 50,
-            "server": "localhost",
-            "port": 5432,
-            "askForPassword": true,
-            "driver": "PostgreSQL",
-            "name": "\tprojeto_vendas",
-            "database": "dbname_oici",
-            "username": "dbname_oici_user"
-        },
-        {
-            "previewLimit": 50,
             "server": "dpg-d1gohn2li9vc73auk1u0-a.oregon-postgres.render.com",
             "port": 5432,
             "driver": "PostgreSQL",
@@ -20,16 +10,6 @@
             "username": "dbname_oici_user",
             "database": "dbname_oici",
             "password": "\tt6riKWrMWQiEwmG5ID9hnZMWNxfZcpKs"
-        },
-        {
-            "previewLimit": 50,
-            "server": "dpg-d1gohn2li9vc73auk1u0-a.oregon-postgres.render.com",
-            "port": 5432,
-            "driver": "PostgreSQL",
-            "password": "t6riKWrMWQiEwmG5ID9hnZMWNxfZcpKs",
-            "username": "dbname_oici_user",
-            "database": "dbname_oici",
-            "name": "dpg-d1gohn2li9vc73auk1u0-a"
         },
         {
             "previewLimit": 50,
@@ -50,16 +30,6 @@
             "name": "PostgreSQL Local",
             "database": "proj_vendas",
             "username": "postgres"
-        },
-        {
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 5432,
-            "driver": "PostgreSQL",
-            "name": "PostgresLocal",
-            "database": "postgres",
-            "username": "postgres",
-            "password": "minhaSenhaSegura123"
         },
         {
             "previewLimit": 50,
