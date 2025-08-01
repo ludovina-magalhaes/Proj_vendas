@@ -10,10 +10,10 @@ try:
         port=5432,
         connect_timeout=10
     )
-    print("✅ Conectado com sucesso!")
+    print(" Conectado com sucesso!")
     conn.close()
 except Exception as e:
-    print("❌ Erro na conexão:", e)
+    print(" Erro na conexão:", e)
     sys.exit(1)
 
 
