@@ -52,8 +52,6 @@ Configure o arquivo .env com as variáveis necessárias para conexão ao banco e
 
 Crie o ambiente virtual e instale as dependências:
 python -m venv env
-source env/bin/activate  # Linux/macOS
-env\Scripts\activate     # Windows
 pip install -r requirements.txt
 Execute os scripts/notebooks na ordem:
 
