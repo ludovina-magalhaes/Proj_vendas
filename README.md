@@ -17,14 +17,13 @@ Repositório do projeto de análise de vendas online de artigos artesanais, com 
 
 ## Arquitetura ETL
 
-   A[Arquivo Excel (.xls)]
-    A--> B[Extração];
-    B --> C[Transformação];
-    C --> D[Carga no PostgreSQL];
-    D --> E[DBeaver para gerenciamento];
-    E --> F[Análise e Visualização (VSCode / Jupyter)];
-    F --> H[Pipeline automatizado] 
-    H --> G[Render - Deploy e Execução];
+   A --> [Arquivo Excel (.xls)]
+   B --> [Extração];
+   C --> [Carga no PostgreSQL];
+   D --> [DBeaver para gerenciamento];
+   E --> [Análise e Visualização (VSCode / Jupyter)];
+   F --> [Pipeline automatizado] 
+   H --> [Render - Deploy e Execução];
 
 
 Extração: Leitura dos dados diretamente do arquivo Excel.
