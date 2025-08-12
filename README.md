@@ -1,6 +1,6 @@
 # Projeto de Análise de Vendas
 
-Repositório do projeto de análise de vendas online de artigos artesanais, com pipeline completo ETL, análise exploratória e visualização, utilizando integração com banco de dados PostgreSQL e deploy na plataforma Render.
+Repositório do projeto de análise de vendas online de artigos mobiliarios, com pipeline completo ETL, análise exploratória e visualização, utilizando integração comuma base de dados PostgreSQL e deploy na plataforma Render.
 
 ---
 
