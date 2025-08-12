@@ -18,11 +18,17 @@ Repositório do projeto de análise de vendas online de artigos mobiliarios, com
 ## Arquitetura ETL
 
    A --> [Arquivo Excel (.xls)]
+   
    B --> [Extração];
+   
    C --> [Carga no PostgreSQL];
+   
    D --> [DBeaver para gerenciamento];
+   
    E --> [Análise e Visualização (VSCode / Jupyter)];
+   
    F --> [Pipeline automatizado] 
+   
    H --> [Render - Deploy e Execução];
 
 
